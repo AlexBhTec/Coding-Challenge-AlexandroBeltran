@@ -1,0 +1,19 @@
+// Base Class
+Class Shape {
+}
+
+// Derived Classes
+
+
+// Main Function
+main() {
+    circle = new Circle(radius = 5)
+    rectangle = new Rectangle(width = 4, height = 6)
+    triangle = new Triangle(base = 3, height = 4)
+
+    shapes = [circle, rectangle, triangle]
+
+    for each shape in shapes {
+        print("Area: " + shape.getArea())
+    }
+}
